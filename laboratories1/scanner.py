@@ -50,7 +50,7 @@ def t_ID(t):
     return t
 
 def t_REALNUM(t):
-    r'(\d+\.\d*[eE]?\d*)|(\d*\.\d*[eE]?\d+)'
+    r'((\d+\.\d*)|(\.\d+))([eE][-+]?\d+)?'
     return t
 
 def t_INTNUM(t):
