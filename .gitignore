@@ -1,3 +1,4 @@
 __*
 *.txt
+*.out
 !example.txt
